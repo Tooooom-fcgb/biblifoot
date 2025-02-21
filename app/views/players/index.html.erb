@@ -7,6 +7,7 @@
 <div id="players">
   <% @players.each do |player| %>
     <%= render player %>
+
     <p>
       <%= link_to "Show this player", player %>
     </p>
@@ -14,3 +15,5 @@
 </div>
 
 <%= link_to "New player", new_player_path %>
+
+
